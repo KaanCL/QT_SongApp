@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp
+-cmake-output
+-output-file
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSongApp.cmake
+-importPath
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/SongApp
+-importPath
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug
+-importPath
+C:/Qt/6.6.3/msvc2019_64/./qml
+-qrcFiles
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/qmake_SongApp.qrc
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/appSongApp_raw_qml_0.qrc

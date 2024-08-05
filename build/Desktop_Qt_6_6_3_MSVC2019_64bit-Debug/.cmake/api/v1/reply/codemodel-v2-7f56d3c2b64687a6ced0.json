@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-86d6d5aa24a5dfc2e51a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SongApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-23e8a43e71047b778ebf.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-f6043adb237981428868.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-a863ce059ae75749c008.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-2332fe5df8d04b6537bb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp-Debug-16914150400b7999d487.json",
+					"name" : "appSongApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_autogen-Debug-b1cb9a61be01a8f54560.json",
+					"name" : "appSongApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_autogen_timestamp_deps-Debug-b8c024a62ff93cbe03ec.json",
+					"name" : "appSongApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmlimportscan-Debug-6a680ba99d1865db30fe.json",
+					"name" : "appSongApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmllint-Debug-9dc634400ef06d73c7a1.json",
+					"name" : "appSongApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmllint_json-Debug-16446df04284cf11f891.json",
+					"name" : "appSongApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmllint_module-Debug-7a8cc96e16c6753a0e78.json",
+					"name" : "appSongApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmltyperegistration-Debug-b5c22554efc584a9a5d4.json",
+					"name" : "appSongApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_tooling-Debug-e9439762b2bdb26d20eb.json",
+					"name" : "appSongApp_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug",
+		"source" : "C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

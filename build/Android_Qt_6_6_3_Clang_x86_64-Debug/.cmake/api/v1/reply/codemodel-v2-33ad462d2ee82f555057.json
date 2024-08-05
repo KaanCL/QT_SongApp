@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4e5bef6d8316a2469cf9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SongApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-501185f051e899466cc4.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-f18d48c0e4588f047e29.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-d432a0ea2224b8f888bc.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-d29a89554d41accdea70.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-f0086fb7d1ad1e3d0256.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-bb106f3ea4464714a592.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-c7329feb13d21ab90a33.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-d149daf2e169861ed4a0.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp-Debug-7e60c5b7db1c1caa7311.json",
+					"name" : "appSongApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_autogen-Debug-41828524643fa1d6ccb3.json",
+					"name" : "appSongApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_autogen_timestamp_deps-Debug-db429537e3b15332481a.json",
+					"name" : "appSongApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_make_aab-Debug-9d890dfcc98eca956575.json",
+					"name" : "appSongApp_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_make_apk-Debug-7820296088bef64f7514.json",
+					"name" : "appSongApp_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_prepare_apk_dir-Debug-c63ce499bd17202d23bb.json",
+					"name" : "appSongApp_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmllint-Debug-a977c0f273f222cdfe84.json",
+					"name" : "appSongApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmllint_json-Debug-da660bad664acdfa9381.json",
+					"name" : "appSongApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmllint_module-Debug-67169e6d04d46f8c0cfd.json",
+					"name" : "appSongApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_qmltyperegistration-Debug-ca05f9839725e9560318.json",
+					"name" : "appSongApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSongApp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSongApp_tooling-Debug-779d2cbf474cc35f8327.json",
+					"name" : "appSongApp_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-25e96efbbd9fb272a18e.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug",
+		"source" : "C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,14 @@
+--bare
+-I
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug
+-I
+C:/Qt/6.6.3/android_arm64_v8a/./qml
+--resource
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/.rcc/qmake_SongApp.qrc
+--resource
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/.rcc/appSongApp_raw_qml_0.qrc
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml
+--json
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/appSongApp_qmllint.json

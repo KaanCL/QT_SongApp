@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SongApp">
+    <file alias="qmldir">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/qmldir</file>
+  </qresource>
+</RCC>
+
