@@ -1,10 +1,12 @@
 appSongApp_autogen/timestamp: \
+	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QAbstractListModel \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QObject \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QUrl \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20functional.h \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20memory.h \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20type_traits.h \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q23utility.h \
+	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qabstractitemmodel.h \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qalgorithms.h \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qanystringview.h \
 	C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qarraydata.h \

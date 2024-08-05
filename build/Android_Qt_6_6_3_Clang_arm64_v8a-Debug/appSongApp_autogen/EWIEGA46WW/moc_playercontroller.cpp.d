@@ -1,10 +1,13 @@
 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/appSongApp_autogen/EWIEGA46WW/moc_playercontroller.cpp: C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.h \
   C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/appSongApp_autogen/moc_predefs.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QAbstractListModel \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QObject \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QUrl \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20functional.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20memory.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20type_traits.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q23utility.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qalgorithms.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qanystringview.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qarraydata.h \
@@ -121,6 +124,7 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_
   C:/Qt/6.6.3/android_arm64_v8a/include/QtMultimedia/qtmultimedia-config.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtMultimedia/qtmultimediaexports.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtMultimedia/qtmultimediaglobal.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtQmlIntegration/qqmlintegration.h \
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include/stdarg.h \
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h \
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android/asm/errno.h \
@@ -249,4 +253,5 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/time.h \
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/wchar.h \
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/wctype.h \
-  C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/xlocale.h
+  C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/xlocale.h \
+  C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.h

@@ -74,6 +74,79 @@
                     ],
                     "name": "changeAudioSource",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "authorName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "audioSource",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "imageSource",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "videoSource",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "addAudio",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "authorName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "audioSource",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "imageSource",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "addAudio",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "removeAudio",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "switchToAudioByIndex",
+                    "returnType": "void"
                 }
             ],
             "superClasses": [

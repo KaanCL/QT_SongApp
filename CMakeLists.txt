@@ -41,6 +41,7 @@ qt_add_qml_module(appSongApp
 
         SOURCES playercontroller.h playercontroller.cpp
         SOURCES audioinfo.h audioinfo.cpp
+        QML_FILES PlaylistPanel.qml
 
 
 

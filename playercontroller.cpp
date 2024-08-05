@@ -3,6 +3,8 @@
 #include <QAudioDevice>
 #include "qaudiooutput.h"
 
+#include <QDebug>
+
 PlayerController::PlayerController(QObject *parent)
     : QAbstractListModel{parent}
 {
@@ -11,6 +13,25 @@ PlayerController::PlayerController(QObject *parent)
     if(!audioOutputs.isEmpty()){
         m_mediaPlayer.setAudioOutput(new QAudioOutput(&m_mediaPlayer));
     }
+
+    addAudio(
+        "Eine Kleine Nachtmusik",
+        "Wolfgang Amadeus Mozart",
+        QUrl("qrc:/SongApp/assets/bir-sana-yandım-ben.mp4"),
+        QUrl("assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg"));
+
+    addAudio(
+        "Kötü insanları tanıma senesi",
+        "Sagopa Kajmer",
+        QUrl("qrc:/SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3"),
+        QUrl("assets/Kötü_insanları_tanıma_senesi.jpg"));
+
+    addAudio(
+        "Ben Hüsrana Komşuyum",
+        "Sagopa Kajmer",
+         QUrl("qrc:/SongApp/assets/Ben-Hüsrana-Komşuyum.mp3"),
+        QUrl("assets/Kötü_insanları_tanıma_senesi.jpg"));
+
 
 
 }
@@ -123,6 +144,8 @@ void PlayerController::changeAudioSource(const QUrl &source){
 
 void PlayerController::addAudio(const QString &title, const QString &authorName, const QUrl &audioSource, const QUrl &imageSource, const QUrl &videoSource)
 {
+
+    beginInsertRows(QModelIndex(), m_audioList.length(),m_audioList.length());
     AudioInfo * audioInfo = new AudioInfo(this);
 
     audioInfo->setTitle(title);
@@ -137,6 +160,47 @@ void PlayerController::addAudio(const QString &title, const QString &authorName,
 
     m_audioList << audioInfo ;
 
+    endInsertRows();
+
+}
+
+void PlayerController::removeAudio(int index)
+{
+    if (index >= 0 && index < m_audioList.length()) {
+        beginRemoveRows(QModelIndex(), index, index);
+
+        AudioInfo *toRemove = m_audioList[index];
+
+        if (toRemove == m_currentSong) {
+            if (m_audioList.length() > 1) {
+                if (index != 0) {
+                    setCurrentSong(m_audioList[index - 1]);
+                } else {
+                    setCurrentSong(m_audioList[index + 1]);
+                }
+            } else {
+                setCurrentSong(nullptr);
+            }
+        }
+
+        m_audioList.removeAt(index);
+        toRemove->deleteLater();
+
+        endRemoveRows();
+    }
+
+
+}
+
+void PlayerController::switchToAudioByIndex(int index)
+{
+    if(index >= 0 && index < m_audioList.length()){
+        setCurrentSong(m_audioList[index]);
+
+          qDebug() << "switchToAudioByIndex";
+    }
+
+
 }
 
 AudioInfo *PlayerController::currentSong() const
@@ -149,6 +213,7 @@ void PlayerController::setCurrentSong(AudioInfo *newCurrentSong)
     if (m_currentSong == newCurrentSong)
         return;
     m_currentSong = newCurrentSong;
+      qDebug() << "setCurrentSong";
     emit currentSongChanged();
 
     if(m_currentSong){

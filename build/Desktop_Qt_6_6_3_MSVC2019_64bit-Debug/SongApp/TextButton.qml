@@ -26,7 +26,7 @@ Item {
 
     Image{
       id:buttonImage
-      width: Screen.width / 50 ; height: Screen.width / 50
+      width: root.width /2 ; height: root.width /2
       anchors.centerIn: parent
 
     }

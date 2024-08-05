@@ -7,9 +7,8 @@ import AudioInfo
 Rectangle {
     id:root
 
-    readonly property AudioInfo infoProvider:AudioInfo{}
 
-    visible: PlayerController.currentSongIndex === infoProvider.songIndex
+    visible: !!PlayerController.currentSong
 
 
     Image{
@@ -24,7 +23,7 @@ Rectangle {
        height: 150
 
 
-       source:infoProvider.imageSource
+       source:!!PlayerController.currentSong ? PlayerController.currentSong.imageSource : ""
 
        fillMode: Image.PreserveAspectFit
 
@@ -43,11 +42,16 @@ Rectangle {
 
         loops: MediaPlayer.Infinite
         volume: 70
+        source:!!PlayerController.currentSong ? PlayerController.currentSong.videoSource : ""
 
+        onSourceChanged: {
+            if(source !=""){
+               play()
+            }else{
+              stop()
+            }
 
-        source:infoProvider.videoSource
-
-
+        }
     }
     Text{
        id:titleText
@@ -62,7 +66,7 @@ Rectangle {
        color:"white"
        wrapMode: Text.WrapAtWordBoundaryOrAnywhere
 
-       text: infoProvider.title
+       text:!!PlayerController.currentSong ? PlayerController.currentSong.title : ""
 
        font{
          pixelSize: 20
@@ -84,7 +88,7 @@ Rectangle {
 
        color:"gray"
        wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-        text: infoProvider.authorName
+        text: !!PlayerController.currentSong ? PlayerController.currentSong.authorName : ""
        font{
          pixelSize: 20
          bold:true
@@ -96,19 +100,11 @@ Rectangle {
     onVisibleChanged: {
        if(visible){
           albumVideo.play()
-           PlayerController.changeAudioSource(infoProvider.audioSource)
        } else{
            albumVideo.seek(0)
            albumVideo.stop()
        }
 
     }
-
-    Component.onCompleted: {
-       if(PlayerController.currentSongIndex === infoProvider.songIndex){
-        PlayerController.changeAudioSource(infoProvider.audioSource)
-       }
-    }
-
 
 }

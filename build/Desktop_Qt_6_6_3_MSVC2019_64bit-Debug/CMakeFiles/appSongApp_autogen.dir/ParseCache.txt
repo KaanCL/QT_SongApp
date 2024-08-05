@@ -100,7 +100,6 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.h
  mdp:C:/Qt/6.6.3/msvc2019_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.6.3/msvc2019_64/include/QtQmlIntegration/qqmlintegration.h
  mdp:C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.h
-C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/qmlcache/appSongApp_qmlcache_loader.cpp
 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.6.3/msvc2019_64/include/QtCore/QAbstractListModel
@@ -230,6 +229,7 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.h
  mdp:C:/Qt/6.6.3/msvc2019_64/include/QtQmlIntegration/qqmlintegration.h
  mdp:C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.h
  mdp:C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.h
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/qmlcache/appSongApp_qmlcache_loader.cpp
 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.cpp
 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/main.cpp
 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.cpp
