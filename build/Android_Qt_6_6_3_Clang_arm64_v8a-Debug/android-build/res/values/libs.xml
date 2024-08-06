@@ -21,6 +21,20 @@
         <item>arm64-v8a;Qt6VirtualKeyboard_arm64-v8a</item>
         <item>arm64-v8a;Qt6QmlWorkerScript_arm64-v8a</item>
         <item>arm64-v8a;Qt6MultimediaQuick_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickTemplates2_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2Impl_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2FusionStyleImpl_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2Fusion_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2MaterialStyleImpl_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2Material_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2ImagineStyleImpl_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2Imagine_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2UniversalStyleImpl_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2Universal_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2BasicStyleImpl_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickControls2Basic_arm64-v8a</item>
+        <item>arm64-v8a;Qt6QuickShapes_arm64-v8a</item>
     </array>
 
     <array name="load_local_libs">

@@ -4,6 +4,7 @@
 #include <QObject>
 #include <QMediaPlayer>
 #include <QAbstractListModel>
+#include <QNetworkAccessManager>
 
 #include "audioinfo.h"
 
@@ -14,7 +15,7 @@ class PlayerController : public QAbstractListModel
     Q_OBJECT
 
     Q_PROPERTY(AudioInfo* currentSong READ currentSong WRITE setCurrentSong NOTIFY currentSongChanged FINAL)
-    Q_PROPERTY(bool playing READ playing WRITE setPlaying NOTIFY playingChanged FINAL)
+    Q_PROPERTY(bool playing READ playing NOTIFY playingChanged FINAL)
 
 
 public:
@@ -62,6 +63,8 @@ private:
     QMediaPlayer m_mediaPlayer;
     QList<AudioInfo*> m_audioList;
     AudioInfo *m_currentSong = nullptr;
+
+
 };
 
 #endif // PLAYERCONTROLLER_H

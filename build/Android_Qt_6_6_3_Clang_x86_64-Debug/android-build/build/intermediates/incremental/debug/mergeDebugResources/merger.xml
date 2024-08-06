@@ -122,6 +122,20 @@
         <item>x86_64;Qt6VirtualKeyboard_x86_64</item>
         <item>x86_64;Qt6QmlWorkerScript_x86_64</item>
         <item>x86_64;Qt6MultimediaQuick_x86_64</item>
+        <item>x86_64;Qt6QuickTemplates2_x86_64</item>
+        <item>x86_64;Qt6QuickControls2Impl_x86_64</item>
+        <item>x86_64;Qt6QuickControls2_x86_64</item>
+        <item>x86_64;Qt6QuickControls2FusionStyleImpl_x86_64</item>
+        <item>x86_64;Qt6QuickControls2Fusion_x86_64</item>
+        <item>x86_64;Qt6QuickControls2MaterialStyleImpl_x86_64</item>
+        <item>x86_64;Qt6QuickControls2Material_x86_64</item>
+        <item>x86_64;Qt6QuickControls2ImagineStyleImpl_x86_64</item>
+        <item>x86_64;Qt6QuickControls2Imagine_x86_64</item>
+        <item>x86_64;Qt6QuickControls2UniversalStyleImpl_x86_64</item>
+        <item>x86_64;Qt6QuickControls2Universal_x86_64</item>
+        <item>x86_64;Qt6QuickControls2BasicStyleImpl_x86_64</item>
+        <item>x86_64;Qt6QuickControls2Basic_x86_64</item>
+        <item>x86_64;Qt6QuickShapes_x86_64</item>
     </array><array name="load_local_libs">
         <item>x86_64;libplugins_platforms_qtforandroid_x86_64.so:libplugins_multimedia_ffmpegmediaplugin_x86_64.so:libplugins_multimedia_androidmediaplugin_x86_64.so</item>
     </array><string name="static_init_classes">org.qtproject.qt.android.multimedia.QtAudioDeviceManager:org.qtproject.qt.android.multimedia.QtMultimediaUtils</string><string name="use_local_qt_libs">1</string><string name="bundle_local_qt_libs">1</string><string name="system_libs_prefix"/></file><file name="qtprovider_paths" path="C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\android-build\res\xml\qtprovider_paths.xml" qualifiers="" type="xml"/></source><source path="C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\android-build\build\generated\res\rs\debug"/><source path="C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\android-build\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\android-build\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\android-build\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems><configuration qualifiers=""><declare-styleable name="FontFamilyFont">

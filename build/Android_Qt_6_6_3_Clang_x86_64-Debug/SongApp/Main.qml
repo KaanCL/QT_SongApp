@@ -1,5 +1,9 @@
 import QtQuick
 
+import PlayerController
+import AudioSearchModel
+
+
 Window {
 
     id:root
@@ -7,6 +11,11 @@ Window {
     height: 480
     visible: true
     title: qsTr("Song Player")
+
+
+    property int widthsize : Screen.width
+    property int heightsize : Screen.height
+
 
 
     Rectangle{
@@ -19,7 +28,72 @@ Window {
 
        height: 50
        color:"#5F8575"
+
+
+       SearchField{
+           id:searchField
+         anchors{
+           left:parent.left
+          right:closeSearchButton.left
+           verticalCenter:parent.verticalCenter
+           margins:10
+         }
+
+         height: 30
+
+         visible:!SearchPanel.hidden
+         enabled: !AudioSearchModel.isSearching
+         onAccepted: value => {
+                            AudioSearchModel.searchSong(value)
+                            topbar.forceActiveFocus()
+                          }
+
+       }
+
+
+       TextButton{
+           id:playlistIcon
+           anchors {
+               left:searchField.right
+               verticalCenter: parent.verticalCenter
+               leftMargin: 10
+             }
+           width: 32
+           height: 32
+           source: "assets/menu-burger.png"
+           visible: searchPanel.hidden
+           onClicked: {
+               playlistPanel.hidden = !playlistPanel.hidden
+             }
+       }
+
+
+    TextButton{
+        id: closeSearchButton
+
+        anchors {
+        right: parent.right
+        verticalCenter: parent.verticalCenter
+        rightMargin: 10
+            }
+
+        height: 32
+        width: 32
+
+       source:"assets/stop.png"
+        visible: !searchPanel.hidden
+
+        onClicked: {
+            searchPanel.hidden = true
+          }
+
     }
+
+
+
+    }
+
+
     Rectangle{
        id:mainSection
 
@@ -32,40 +106,6 @@ Window {
 
        color:"#1e1e1e"
 
-       AudioInfoBox{
-           id:firstSong
-           anchors{
-               verticalCenter: parent.verticalCenter
-               left:parent.left
-               right: parent.right
-               margins:20
-           }
-
-           songIndex: 0
-           title:"Eine Kleine Nachtmusik"
-           authorName:"Wolfgang Amadeus Mozart"
-           imageSource:"assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg"
-           videoSource: "qrc:/SongApp/assets/f1.mp4"
-           videoStatus:playerController.playing
-       }
-
-       AudioInfoBox{
-           id:secondSong
-           anchors{
-               verticalCenter: parent.verticalCenter
-               left:parent.left
-               right: parent.right
-               margins:20
-           }
-
-           songIndex: 1
-           title:"Kötü insanları tanıma senesi"
-           authorName:"Sagopa Kajmer"
-           imageSource:"assets/Kötü_insanları_tanıma_senesi.jpg"
-           videoSource: "qrc:/SongApp/assets/f1.mp4"
-           videoStatus:playerController.playing
-
-       }
 
 
        AudioInfoBox{
@@ -77,14 +117,7 @@ Window {
                margins:20
            }
 
-           songIndex: 2
-           title:"Ben Hüsrana Komşuyum"
-           authorName:"Sagopa Kajmer"
-           imageSource:"assets/Kötü_insanları_tanıma_senesi.jpg"
-           videoSource: "qrc:/SongApp/assets/f1.mp4"
-           videoStatus:playerController.playing
        }
-
 
 
     }
@@ -97,6 +130,7 @@ Window {
           left:parent.left
           right:parent.right
       }
+      enabled: !!PlayerController.currentSong
 
       height: 100
       color:"#333333"
@@ -108,29 +142,29 @@ Window {
 
         TextButton{
            id:previousButton
-
-           width: 50
-           height: 50
+           height: width
            source: "assets/angle-left.png"
-           onClicked: playerController.switchToPreviousSong()
-
+           onClicked: PlayerController.switchToPreviousSong()
+            width : (widthsize > heightsize ? widthsize : heightsize) * 0.05
         }
 
         TextButton{
            id: playPauseButton
-           width: 50
-           height: 50
-           source: playerController.playing ? "assets/stop.png" : "assets/play.png"
-           onClicked: playerController.playPause()
+           width: (widthsize > heightsize ? widthsize : heightsize) * 0.05
+           height: width
+           source: PlayerController.playing ? "assets/stop.png" : "assets/play.png"
+           onClicked: {PlayerController.playPause()
+               console.log(PlayerController.playing)
+           }
 
         }
 
         TextButton{
            id: nextButton
-           width: 50
-           height: 50
+           width: (widthsize > heightsize ? widthsize : heightsize) * 0.05
+           height: width
            source:"assets/angle-right.png"
-           onClicked: playerController.switchToNextSong()
+           onClicked: PlayerController.switchToNextSong()
 
         }
 
@@ -139,36 +173,31 @@ Window {
 
     }
 
-    QtObject{
-       id:playerController
+    PlaylistPanel{
+       id:playlistPanel
 
-       property int currentSongIndex : 0
-       property int songCount : 3
-       property bool playing : false
-
-
-       function playPause(){
-           playing = !playing
-       }
-
-       function switchToPreviousSong(){
-           if(currentSongIndex > 0 ){
-               currentSongIndex --
+       anchors {
+             top: topbar.bottom
            }
-           else{
-           currentSongIndex = songCount - 1
-           }
+     x: hidden ? parent.width : parent.width - width
 
-       }
+     onSearchRequested: {
+         searchPanel.hidden = false
+     }
 
-       function switchToNextSong(){
-           if(currentSongIndex < songCount - 1 ){
-               currentSongIndex ++
-           }
-           else{
-           currentSongIndex = 0
-           }
-
-       }
     }
+
+    SearchPanel {
+       id: searchPanel
+
+       anchors {
+         left: parent.left
+         right: parent.right
+       }
+
+       height: mainSection.height + bottombar.height
+
+       y: hidden ? parent.height : topbar.height
+     }
+
 }

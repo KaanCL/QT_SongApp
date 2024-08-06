@@ -5,6 +5,8 @@ Rectangle {
 
   property bool hidden: true
 
+  signal searchRequested
+
   width: Screen.width * 0.4
   height: Screen.height * 0.4
 
@@ -124,7 +126,7 @@ Rectangle {
             width: 30
             height: 30
 
-            source: "assets/stop.png"
+            source: "assets/trash.png"
 
             onClicked: {
              PlayerController.removeAudio(delegate.index)
@@ -150,15 +152,15 @@ Rectangle {
       width: 30
       height: 30
 
-      source: "assets/stop.png"
+      source: "assets/plus.png"
 
       onClicked: {
-          PlayerController.addAudio(
-                  "Eine Kleine Nachtmusik", "Wolfgang Amadeus Mozart",
-                  "qrc:/SongApp/assets/bir-sana-yandım-ben.mp4",
-                  "assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg"
-                  )
-      }
+
+            root.searchRequested()
+
+            root.hidden = true
+
+          }
 
   }
 

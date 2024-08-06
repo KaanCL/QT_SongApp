@@ -911,7 +911,27 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appSongApp_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlayerController.h",
+			"MU",
+			"EWIEGA46WW/moc_PlayerController.cpp",
+			null
+		],
+		[
+			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.h",
+			"MU",
+			"EWIEGA46WW/moc_audioinfo.cpp",
+			null
+		],
+		[
+			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audiosearchmodel.h",
+			"MU",
+			"EWIEGA46WW/moc_audiosearchmodel.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/mocs_compilation.cpp",
@@ -984,6 +1004,9 @@
 	[
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_AudioInfoBox_qml.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_Main_qml.cpp",
+		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp",
+		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchField_qml.cpp",
+		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchPanel_qml.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_TextButton_qml.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_appSongApp_raw_qml_0.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_qmake_SongApp.cpp",
@@ -1000,12 +1023,27 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audiosearchmodel.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_qmlcache_loader.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.cpp",
 			"MU",
 			null
 		]
@@ -1016,6 +1054,9 @@
 	[
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_AudioInfoBox_qml.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_Main_qml.cpp",
+		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp",
+		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchField_qml.cpp",
+		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchPanel_qml.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_TextButton_qml.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_appSongApp_raw_qml_0.cpp",
 		"C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_qmake_SongApp.cpp",

@@ -1,6 +1,7 @@
 import QtQuick
 
 import PlayerController
+import AudioSearchModel
 
 
 Window {
@@ -28,20 +29,67 @@ Window {
        height: 50
        color:"#5F8575"
 
+
+       SearchField{
+           id:searchField
+         anchors{
+           left:parent.left
+          right:closeSearchButton.left
+           verticalCenter:parent.verticalCenter
+           margins:10
+         }
+
+         height: 30
+
+         visible:!SearchPanel.hidden
+         enabled: !AudioSearchModel.isSearching
+         onAccepted: value => {
+                            AudioSearchModel.searchSong(value)
+                            topbar.forceActiveFocus()
+                          }
+
+       }
+
+
        TextButton{
+           id:playlistIcon
            anchors {
-               right: parent.right
+               left:searchField.right
                verticalCenter: parent.verticalCenter
-               rightMargin: 20
+               leftMargin: 10
              }
            width: 32
            height: 32
-           source: "assets/icons/menu_icon.png"
+           source: "assets/menu-burger.png"
+           visible: searchPanel.hidden
            onClicked: {
                playlistPanel.hidden = !playlistPanel.hidden
              }
-
        }
+
+
+    TextButton{
+        id: closeSearchButton
+
+        anchors {
+        right: parent.right
+        verticalCenter: parent.verticalCenter
+        rightMargin: 10
+            }
+
+        height: 32
+        width: 32
+
+       source:"assets/stop.png"
+        visible: !searchPanel.hidden
+
+        onClicked: {
+            searchPanel.hidden = true
+          }
+
+    }
+
+
 
     }
 
@@ -132,6 +180,24 @@ Window {
              top: topbar.bottom
            }
      x: hidden ? parent.width : parent.width - width
+
+     onSearchRequested: {
+         searchPanel.hidden = false
+     }
+
     }
+
+    SearchPanel {
+       id: searchPanel
+
+       anchors {
+         left: parent.left
+         right: parent.right
+       }
+
+       height: mainSection.height + bottombar.height
+
+       y: hidden ? parent.height : topbar.height
+     }
 
 }

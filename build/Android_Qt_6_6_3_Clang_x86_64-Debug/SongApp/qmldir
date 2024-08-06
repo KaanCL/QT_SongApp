@@ -4,4 +4,7 @@ prefer :/SongApp/
 Main 1.0 Main.qml
 AudioInfoBox 1.0 AudioInfoBox.qml
 TextButton 1.0 TextButton.qml
+PlaylistPanel 1.0 PlaylistPanel.qml
+SearchPanel 1.0 SearchPanel.qml
+SearchField 1.0 SearchField.qml
 

@@ -1,8 +1,14 @@
-C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/appSongApp_autogen/EWIEGA46WW/moc_playercontroller.cpp: C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.h \
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/appSongApp_autogen/EWIEGA46WW/moc_PlayerController.cpp: C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlayerController.h \
   C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/appSongApp_autogen/moc_predefs.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QAbstractListModel \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QFlags \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QList \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QMetaType \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QObject \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QSharedDataPointer \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QString \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QUrl \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/QVariant \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20functional.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20memory.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20type_traits.h \
@@ -22,6 +28,7 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearraylist.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearrayview.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcalendar.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qchar.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcompare.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcompare_impl.h \
@@ -32,8 +39,10 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcontiguouscache.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcryptographichash.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdatastream.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdatetime.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdebug.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qflags.h \
@@ -46,11 +55,13 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qglobalstatic.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qhash.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qhashfunctions.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiodevice.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiodevicebase.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiterable.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiterator.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlist.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlocale.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlogging.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmalloc.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmap.h \
@@ -124,6 +135,23 @@ C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_
   C:/Qt/6.6.3/android_arm64_v8a/include/QtMultimedia/qtmultimedia-config.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtMultimedia/qtmultimediaexports.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtMultimedia/qtmultimediaglobal.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/QNetworkAccessManager \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/QSslConfiguration \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qabstractsocket.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qhostaddress.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qnetworkaccessmanager.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qnetworkrequest.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qssl.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qsslcertificate.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qsslconfiguration.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qsslerror.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qsslsocket.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qtcpsocket.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qtnetwork-config.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qtnetworkexports.h \
+  C:/Qt/6.6.3/android_arm64_v8a/include/QtNetwork/qtnetworkglobal.h \
   C:/Qt/6.6.3/android_arm64_v8a/include/QtQmlIntegration/qqmlintegration.h \
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include/stdarg.h \
   C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h \

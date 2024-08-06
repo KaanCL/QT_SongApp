@@ -26,6 +26,27 @@ namespace _0x5f_SongApp_TextButton_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_SongApp_PlaylistPanel_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_SongApp_SearchPanel_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_SongApp_SearchField_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -43,6 +64,9 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/SongApp/Main.qml"), &QmlCacheGeneratedCode::_0x5f_SongApp_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/SongApp/AudioInfoBox.qml"), &QmlCacheGeneratedCode::_0x5f_SongApp_AudioInfoBox_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/SongApp/TextButton.qml"), &QmlCacheGeneratedCode::_0x5f_SongApp_TextButton_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/SongApp/PlaylistPanel.qml"), &QmlCacheGeneratedCode::_0x5f_SongApp_PlaylistPanel_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/SongApp/SearchPanel.qml"), &QmlCacheGeneratedCode::_0x5f_SongApp_SearchPanel_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/SongApp/SearchField.qml"), &QmlCacheGeneratedCode::_0x5f_SongApp_SearchField_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

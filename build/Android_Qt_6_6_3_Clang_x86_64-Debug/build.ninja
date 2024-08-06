@@ -59,7 +59,7 @@ build aab: phony appSongApp_make_aab
 #############################################
 # Order-only phony target for appSongApp
 
-build cmake_object_order_depends_target_appSongApp: phony || .rcc/qmlcache/appSongApp_AudioInfoBox_qml.cpp .rcc/qmlcache/appSongApp_Main_qml.cpp .rcc/qmlcache/appSongApp_TextButton_qml.cpp .rcc/qmlcache/appSongApp_qmlcache_loader.cpp .rcc/qrc_appSongApp_raw_qml_0.cpp .rcc/qrc_qmake_SongApp.cpp SongApp/appSongApp.qmltypes appSongApp_autogen appSongApp_autogen/mocs_compilation.cpp appSongApp_autogen/timestamp appSongApp_autogen_timestamp_deps appSongApp_tooling appsongapp_qmltyperegistrations.cpp meta_types/appSongApp_json_file_list.txt meta_types/appSongApp_json_file_list.txt.timestamp meta_types/qt6appsongapp_debug_metatypes.json meta_types/qt6appsongapp_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appSongApp: phony || .rcc/qmlcache/appSongApp_AudioInfoBox_qml.cpp .rcc/qmlcache/appSongApp_Main_qml.cpp .rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp .rcc/qmlcache/appSongApp_SearchField_qml.cpp .rcc/qmlcache/appSongApp_SearchPanel_qml.cpp .rcc/qmlcache/appSongApp_TextButton_qml.cpp .rcc/qmlcache/appSongApp_qmlcache_loader.cpp .rcc/qrc_appSongApp_raw_qml_0.cpp .rcc/qrc_qmake_SongApp.cpp SongApp/appSongApp.qmltypes appSongApp_autogen appSongApp_autogen/mocs_compilation.cpp appSongApp_autogen/timestamp appSongApp_autogen_timestamp_deps appSongApp_tooling appsongapp_qmltyperegistrations.cpp meta_types/appSongApp_json_file_list.txt meta_types/appSongApp_json_file_list.txt.timestamp meta_types/qt6appsongapp_debug_metatypes.json meta_types/qt6appsongapp_debug_metatypes.json.gen
 
 build CMakeFiles/appSongApp.dir/appSongApp_autogen/mocs_compilation.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appSongApp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
@@ -72,6 +72,14 @@ build CMakeFiles/appSongApp.dir/appSongApp_autogen/mocs_compilation.cpp.o: CXX_C
 build CMakeFiles/appSongApp.dir/main.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/main.cpp || cmake_object_order_depends_target_appSongApp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
   DEP_FILE = CMakeFiles\appSongApp.dir\main.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -std=gnu++17 -fPIC -fvisibility=default -fansi-escape-codes -fcolor-diagnostics -fPIC -pthread
+  INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
+  OBJECT_DIR = CMakeFiles\appSongApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir
+
+build CMakeFiles/appSongApp.dir/playercontroller.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/playercontroller.cpp || cmake_object_order_depends_target_appSongApp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
+  DEP_FILE = CMakeFiles\appSongApp.dir\playercontroller.cpp.o.d
   FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -std=gnu++17 -fPIC -fvisibility=default -fansi-escape-codes -fcolor-diagnostics -fPIC -pthread
   INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
   OBJECT_DIR = CMakeFiles\appSongApp.dir
@@ -92,6 +100,22 @@ build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/q
   INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
   OBJECT_DIR = CMakeFiles\appSongApp.dir
   OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc
+
+build CMakeFiles/appSongApp.dir/audioinfo.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audioinfo.cpp || cmake_object_order_depends_target_appSongApp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
+  DEP_FILE = CMakeFiles\appSongApp.dir\audioinfo.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -std=gnu++17 -fPIC -fvisibility=default -fansi-escape-codes -fcolor-diagnostics -fPIC -pthread
+  INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
+  OBJECT_DIR = CMakeFiles\appSongApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir
+
+build CMakeFiles/appSongApp.dir/audiosearchmodel.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/audiosearchmodel.cpp || cmake_object_order_depends_target_appSongApp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
+  DEP_FILE = CMakeFiles\appSongApp.dir\audiosearchmodel.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -std=gnu++17 -fPIC -fvisibility=default -fansi-escape-codes -fcolor-diagnostics -fPIC -pthread
+  INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
+  OBJECT_DIR = CMakeFiles\appSongApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir
 
 build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_qmlcache_loader.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_qmlcache_loader.cpp || cmake_object_order_depends_target_appSongApp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
@@ -125,6 +149,30 @@ build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/q
   OBJECT_DIR = CMakeFiles\appSongApp.dir
   OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qmlcache
 
+build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp || cmake_object_order_depends_target_appSongApp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
+  DEP_FILE = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qmlcache\appSongApp_PlaylistPanel_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -std=gnu++17 -fPIC -fvisibility=default -fansi-escape-codes -fcolor-diagnostics -fPIC -pthread
+  INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
+  OBJECT_DIR = CMakeFiles\appSongApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qmlcache
+
+build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchPanel_qml.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchPanel_qml.cpp || cmake_object_order_depends_target_appSongApp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
+  DEP_FILE = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qmlcache\appSongApp_SearchPanel_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -std=gnu++17 -fPIC -fvisibility=default -fansi-escape-codes -fcolor-diagnostics -fPIC -pthread
+  INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
+  OBJECT_DIR = CMakeFiles\appSongApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qmlcache
+
+build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchField_qml.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchField_qml.cpp || cmake_object_order_depends_target_appSongApp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
+  DEP_FILE = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qmlcache\appSongApp_SearchField_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -std=gnu++17 -fPIC -fvisibility=default -fansi-escape-codes -fcolor-diagnostics -fPIC -pthread
+  INCLUDES = -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/appSongApp_autogen/include -IC:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml/6.6.3/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3 -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore/6.6.3/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include/QtCore -isystem C:/Qt/6.6.3/android_x86_64/include -isystem C:/Qt/6.6.3/android_x86_64/mkspecs/android-clang -isystem C:/Qt/6.6.3/android_x86_64/include/QtQml -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlIntegration -isystem C:/Qt/6.6.3/android_x86_64/include/QtNetwork -isystem C:/Qt/6.6.3/android_x86_64/include/QtQuick -isystem C:/Qt/6.6.3/android_x86_64/include/QtGui -isystem C:/Qt/6.6.3/android_x86_64/include/QtQmlModels -isystem C:/Qt/6.6.3/android_x86_64/include/QtOpenGL -isystem C:/Qt/6.6.3/android_x86_64/include/QtMultimedia
+  OBJECT_DIR = CMakeFiles\appSongApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qmlcache
+
 build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_appSongApp_raw_qml_0.cpp.o: CXX_COMPILER__appSongApp_unscanned_Debug C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_appSongApp_raw_qml_0.cpp || cmake_object_order_depends_target_appSongApp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DappSongApp_EXPORTS
   DEP_FILE = CMakeFiles\appSongApp.dir\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.rcc\qrc_appSongApp_raw_qml_0.cpp.o.d
@@ -141,7 +189,7 @@ build CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/q
 #############################################
 # Link the shared module libappSongApp_x86_64.so
 
-build libappSongApp_x86_64.so: CXX_MODULE_LIBRARY_LINKER__appSongApp_Debug CMakeFiles/appSongApp.dir/appSongApp_autogen/mocs_compilation.cpp.o CMakeFiles/appSongApp.dir/main.cpp.o CMakeFiles/appSongApp.dir/appsongapp_qmltyperegistrations.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_qmake_SongApp.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_qmlcache_loader.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_Main_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_AudioInfoBox_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_TextButton_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_appSongApp_raw_qml_0.cpp.o | C$:/Qt/6.6.3/android_x86_64/lib/libQt6Quick_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Multimedia_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6QmlModels_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Qml_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6OpenGL_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Network_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Gui_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Core_x86_64.so C$:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libGLESv2.so C$:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libEGL.so || appSongApp_autogen appSongApp_autogen_timestamp_deps appSongApp_tooling
+build libappSongApp_x86_64.so: CXX_MODULE_LIBRARY_LINKER__appSongApp_Debug CMakeFiles/appSongApp.dir/appSongApp_autogen/mocs_compilation.cpp.o CMakeFiles/appSongApp.dir/main.cpp.o CMakeFiles/appSongApp.dir/playercontroller.cpp.o CMakeFiles/appSongApp.dir/appsongapp_qmltyperegistrations.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_qmake_SongApp.cpp.o CMakeFiles/appSongApp.dir/audioinfo.cpp.o CMakeFiles/appSongApp.dir/audiosearchmodel.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_qmlcache_loader.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_Main_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_AudioInfoBox_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_TextButton_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchPanel_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchField_qml.cpp.o CMakeFiles/appSongApp.dir/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_appSongApp_raw_qml_0.cpp.o | C$:/Qt/6.6.3/android_x86_64/lib/libQt6Quick_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Multimedia_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6QmlModels_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Qml_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6OpenGL_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Network_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Gui_x86_64.so C$:/Qt/6.6.3/android_x86_64/lib/libQt6Core_x86_64.so C$:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libGLESv2.so C$:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libEGL.so || appSongApp_autogen appSongApp_autogen_timestamp_deps appSongApp_tooling
   LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info
   LINK_FLAGS = -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined
   LINK_LIBRARIES = C:/Qt/6.6.3/android_x86_64/lib/libQt6Quick_x86_64.so  C:/Qt/6.6.3/android_x86_64/lib/libQt6Multimedia_x86_64.so  C:/Qt/6.6.3/android_x86_64/lib/libQt6QmlModels_x86_64.so  C:/Qt/6.6.3/android_x86_64/lib/libQt6Qml_x86_64.so  C:/Qt/6.6.3/android_x86_64/lib/libQt6OpenGL_x86_64.so  C:/Qt/6.6.3/android_x86_64/lib/libQt6Network_x86_64.so  C:/Qt/6.6.3/android_x86_64/lib/libQt6Gui_x86_64.so  C:/Qt/6.6.3/android_x86_64/lib/libQt6Core_x86_64.so  -llog  -pthread  C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libGLESv2.so  C:/Users/pcerk/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libEGL.so   -latomic -lm
@@ -203,7 +251,7 @@ build all_qmllint_module: phony appSongApp_qmllint_module
 #############################################
 # Utility command for appSongApp_tooling
 
-build appSongApp_tooling: phony SongApp/Main.qml SongApp/AudioInfoBox.qml SongApp/TextButton.qml SongApp/assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg SongApp/assets/angle-left.png SongApp/assets/angle-right.png SongApp/assets/Kötü_insanları_tanıma_senesi.jpg SongApp/assets/play.png SongApp/assets/song.png SongApp/assets/stop.png SongApp/assets/f1.mp4
+build appSongApp_tooling: phony SongApp/Main.qml SongApp/AudioInfoBox.qml SongApp/TextButton.qml SongApp/PlaylistPanel.qml SongApp/SearchPanel.qml SongApp/SearchField.qml SongApp/assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg SongApp/assets/angle-left.png SongApp/assets/angle-right.png SongApp/assets/Kötü_insanları_tanıma_senesi.jpg SongApp/assets/play.png SongApp/assets/song.png SongApp/assets/stop.png SongApp/assets/menu-burger.png SongApp/assets/trash.png SongApp/assets/plus.png SongApp/assets/search.png SongApp/assets/f1.mp4 SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3 SongApp/assets/bir-sana-yandım-ben.mp4 SongApp/assets/Ben-Hüsrana-Komşuyum.mp3
 
 
 #############################################
@@ -384,9 +432,36 @@ build .rcc/qmlcache/appSongApp_TextButton_qml.cpp | ${cmake_ninja_workdir}.rcc/q
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appSongApp_PlaylistPanel_qml.cpp
+
+build .rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmlcachegen.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml .rcc/qmake_SongApp.qrc .rcc/appSongApp_raw_qml_0.qrc SongApp/appSongApp.qmltypes SongApp/qmldir || appSongApp_autogen appSongApp_autogen_timestamp_deps appSongApp_tooling
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache && C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.3/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /SongApp/PlaylistPanel.qml -I C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug -I C:/Qt/6.6.3/android_x86_64/./qml -i C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/qmldir --resource C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmake_SongApp.qrc --resource C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/appSongApp_raw_qml_0.qrc -o C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml"
+  DESC = Generating .rcc/qmlcache/appSongApp_PlaylistPanel_qml.cpp
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc\qmlcache\appSongApp_SearchPanel_qml.cpp
+
+build .rcc/qmlcache/appSongApp_SearchPanel_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appSongApp_SearchPanel_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmlcachegen.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml .rcc/qmake_SongApp.qrc .rcc/appSongApp_raw_qml_0.qrc SongApp/appSongApp.qmltypes SongApp/qmldir || appSongApp_autogen appSongApp_autogen_timestamp_deps appSongApp_tooling
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache && C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.3/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /SongApp/SearchPanel.qml -I C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug -I C:/Qt/6.6.3/android_x86_64/./qml -i C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/qmldir --resource C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmake_SongApp.qrc --resource C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/appSongApp_raw_qml_0.qrc -o C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchPanel_qml.cpp C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml"
+  DESC = Generating .rcc/qmlcache/appSongApp_SearchPanel_qml.cpp
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc\qmlcache\appSongApp_SearchField_qml.cpp
+
+build .rcc/qmlcache/appSongApp_SearchField_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appSongApp_SearchField_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmlcachegen.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml .rcc/qmake_SongApp.qrc .rcc/appSongApp_raw_qml_0.qrc SongApp/appSongApp.qmltypes SongApp/qmldir || appSongApp_autogen appSongApp_autogen_timestamp_deps appSongApp_tooling
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache && C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.3/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /SongApp/SearchField.qml -I C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug -I C:/Qt/6.6.3/android_x86_64/./qml -i C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/qmldir --resource C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmake_SongApp.qrc --resource C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/appSongApp_raw_qml_0.qrc -o C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmlcache/appSongApp_SearchField_qml.cpp C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml"
+  DESC = Generating .rcc/qmlcache/appSongApp_SearchField_qml.cpp
+  restat = 1
+
+
+#############################################
 # Custom command for .rcc\qrc_appSongApp_raw_qml_0.cpp
 
-build .rcc/qrc_appSongApp_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appSongApp_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/angle-left.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/angle-right.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Kötü_insanları_tanıma_senesi.jpg C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/play.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/song.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/stop.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/f1.mp4 .rcc/appSongApp_raw_qml_0.qrc C$:/Qt/6.6.3/mingw_64/./bin/rcc.exe || appSongApp_autogen appSongApp_autogen_timestamp_deps appSongApp_tooling
+build .rcc/qrc_appSongApp_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appSongApp_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/angle-left.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/angle-right.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Kötü_insanları_tanıma_senesi.jpg C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/play.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/song.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/stop.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/menu-burger.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/trash.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/plus.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/search.png C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/f1.mp4 C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3 C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/bir-sana-yandım-ben.mp4 C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Ben-Hüsrana-Komşuyum.mp3 .rcc/appSongApp_raw_qml_0.qrc C$:/Qt/6.6.3/mingw_64/./bin/rcc.exe || appSongApp_autogen appSongApp_autogen_timestamp_deps appSongApp_tooling
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug && C:\Qt\6.6.3\mingw_64\.\bin\rcc.exe --output C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qrc_appSongApp_raw_qml_0.cpp --name appSongApp_raw_qml_0 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/appSongApp_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appSongApp_raw_qml_0
   restat = 1
@@ -421,21 +496,21 @@ build CMakeFiles/appSongApp_qmltyperegistration | ${cmake_ninja_workdir}CMakeFil
 #############################################
 # Custom command for CMakeFiles\appSongApp_qmllint
 
-build CMakeFiles/appSongApp_qmllint | ${cmake_ninja_workdir}CMakeFiles/appSongApp_qmllint: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmllint.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml .rcc/qmllint/appSongApp.rsp || all_qmltyperegistrations appSongApp_qmltyperegistration
+build CMakeFiles/appSongApp_qmllint | ${cmake_ninja_workdir}CMakeFiles/appSongApp_qmllint: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmllint.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml .rcc/qmllint/appSongApp.rsp || all_qmltyperegistrations appSongApp_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.3/mingw_64/bin/qmllint.exe @C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmllint/appSongApp.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appSongApp_qmllint_json
 
-build CMakeFiles/appSongApp_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appSongApp_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmllint.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml .rcc/qmllint/appSongApp_json.rsp || all_qmltyperegistrations appSongApp_qmltyperegistration
+build CMakeFiles/appSongApp_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appSongApp_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmllint.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml .rcc/qmllint/appSongApp_json.rsp || all_qmltyperegistrations appSongApp_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.3/mingw_64/bin/qmllint.exe @C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmllint/appSongApp_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appSongApp_qmllint_module
 
-build CMakeFiles/appSongApp_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appSongApp_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmllint.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml .rcc/qmllint/appSongApp_module.rsp || all_qmltyperegistrations appSongApp_qmltyperegistration
+build CMakeFiles/appSongApp_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appSongApp_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.6.3/mingw_64/bin/qmllint.exe C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/Main.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml .rcc/qmllint/appSongApp_module.rsp || all_qmltyperegistrations appSongApp_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp\build\Android_Qt_6_6_3_Clang_x86_64-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.6.3/mingw_64/bin/qmllint.exe @C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/.rcc/qmllint/appSongApp_module.rsp"
 
 
@@ -463,6 +538,33 @@ build SongApp/AudioInfoBox.qml | ${cmake_ninja_workdir}SongApp/AudioInfoBox.qml:
 build SongApp/TextButton.qml | ${cmake_ninja_workdir}SongApp/TextButton.qml: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/TextButton.qml"
   DESC = Copying TextButton.qml to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/TextButton.qml
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\PlaylistPanel.qml
+
+build SongApp/PlaylistPanel.qml | ${cmake_ninja_workdir}SongApp/PlaylistPanel.qml: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/PlaylistPanel.qml"
+  DESC = Copying PlaylistPanel.qml to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/PlaylistPanel.qml
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\SearchPanel.qml
+
+build SongApp/SearchPanel.qml | ${cmake_ninja_workdir}SongApp/SearchPanel.qml: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/SearchPanel.qml"
+  DESC = Copying SearchPanel.qml to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/SearchPanel.qml
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\SearchField.qml
+
+build SongApp/SearchField.qml | ${cmake_ninja_workdir}SongApp/SearchField.qml: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/SearchField.qml"
+  DESC = Copying SearchField.qml to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/SearchField.qml
   restat = 1
 
 
@@ -530,11 +632,74 @@ build SongApp/assets/stop.png | ${cmake_ninja_workdir}SongApp/assets/stop.png: C
 
 
 #############################################
+# Custom command for SongApp\assets\menu-burger.png
+
+build SongApp/assets/menu-burger.png | ${cmake_ninja_workdir}SongApp/assets/menu-burger.png: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/menu-burger.png
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/menu-burger.png C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/menu-burger.png"
+  DESC = Copying assets/menu-burger.png to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/menu-burger.png
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\assets\trash.png
+
+build SongApp/assets/trash.png | ${cmake_ninja_workdir}SongApp/assets/trash.png: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/trash.png
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/trash.png C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/trash.png"
+  DESC = Copying assets/trash.png to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/trash.png
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\assets\plus.png
+
+build SongApp/assets/plus.png | ${cmake_ninja_workdir}SongApp/assets/plus.png: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/plus.png
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/plus.png C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/plus.png"
+  DESC = Copying assets/plus.png to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/plus.png
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\assets\search.png
+
+build SongApp/assets/search.png | ${cmake_ninja_workdir}SongApp/assets/search.png: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/search.png
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/search.png C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/search.png"
+  DESC = Copying assets/search.png to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/search.png
+  restat = 1
+
+
+#############################################
 # Custom command for SongApp\assets\f1.mp4
 
 build SongApp/assets/f1.mp4 | ${cmake_ninja_workdir}SongApp/assets/f1.mp4: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/f1.mp4
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/f1.mp4 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/f1.mp4"
   DESC = Copying assets/f1.mp4 to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/f1.mp4
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\assets\Kötü-İnsanları-Tanıma-Senesi.mp3
+
+build SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3 | ${cmake_ninja_workdir}SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3"
+  DESC = Copying assets/Kötü-İnsanları-Tanıma-Senesi.mp3 to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\assets\bir-sana-yandım-ben.mp4
+
+build SongApp/assets/bir-sana-yandım-ben.mp4 | ${cmake_ninja_workdir}SongApp/assets/bir-sana-yandım-ben.mp4: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/bir-sana-yandım-ben.mp4
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/bir-sana-yandım-ben.mp4 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/bir-sana-yandım-ben.mp4"
+  DESC = Copying assets/bir-sana-yandım-ben.mp4 to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/bir-sana-yandım-ben.mp4
+  restat = 1
+
+
+#############################################
+# Custom command for SongApp\assets\Ben-Hüsrana-Komşuyum.mp3
+
+build SongApp/assets/Ben-Hüsrana-Komşuyum.mp3 | ${cmake_ninja_workdir}SongApp/assets/Ben-Hüsrana-Komşuyum.mp3: CUSTOM_COMMAND C$:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Ben-Hüsrana-Komşuyum.mp3
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\pcerk\OneDrive\Belgeler\QtProject\SongApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Ben-Hüsrana-Komşuyum.mp3 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/Ben-Hüsrana-Komşuyum.mp3"
+  DESC = Copying assets/Ben-Hüsrana-Komşuyum.mp3 to C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Android_Qt_6_6_3_Clang_x86_64-Debug/SongApp/assets/Ben-Hüsrana-Komşuyum.mp3
   restat = 1
 
 

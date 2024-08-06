@@ -1,2 +1,3 @@
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appSongApp_autogen/include/../EWIEGA46WW/moc_PlayerController.cpp.json
 C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appSongApp_autogen/include/../EWIEGA46WW/moc_audioinfo.cpp.json
-C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appSongApp_autogen/include/../EWIEGA46WW/moc_playercontroller.cpp.json
+C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appSongApp_autogen/include/../EWIEGA46WW/moc_audiosearchmodel.cpp.json

@@ -7,6 +7,7 @@
 *****************************************************************************/
 
 #include "../../../../playercontroller.h"
+#include <QtNetwork/QSslError>
 #include <QtCore/qmetatype.h>
 
 #if __has_include(<QtCore/qtmochelpers.h>)
@@ -180,7 +181,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSPlayerControllerENDCLASS[] = {
 
  // properties: name, type, flags
       18, 0x80000000 | 19, 0x0001590b, uint(1), 0,
-      20, QMetaType::Bool, 0x00015903, uint(0), 0,
+      20, QMetaType::Bool, 0x00015801, uint(0), 0,
 
        0        // eod
 };

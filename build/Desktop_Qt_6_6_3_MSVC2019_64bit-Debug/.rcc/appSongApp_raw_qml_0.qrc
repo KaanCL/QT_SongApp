@@ -4,6 +4,8 @@
     <file alias="AudioInfoBox.qml">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/AudioInfoBox.qml</file>
     <file alias="TextButton.qml">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/TextButton.qml</file>
     <file alias="PlaylistPanel.qml">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/PlaylistPanel.qml</file>
+    <file alias="SearchPanel.qml">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchPanel.qml</file>
+    <file alias="SearchField.qml">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/SearchField.qml</file>
     <file alias="assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/ab67616d0000b27325cd7dfef168e72ac4555a1c.jpeg</file>
     <file alias="assets/angle-left.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/angle-left.png</file>
     <file alias="assets/angle-right.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/angle-right.png</file>
@@ -11,6 +13,10 @@
     <file alias="assets/play.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/play.png</file>
     <file alias="assets/song.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/song.png</file>
     <file alias="assets/stop.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/stop.png</file>
+    <file alias="assets/menu-burger.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/menu-burger.png</file>
+    <file alias="assets/trash.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/trash.png</file>
+    <file alias="assets/plus.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/plus.png</file>
+    <file alias="assets/search.png">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/search.png</file>
     <file alias="assets/f1.mp4">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/f1.mp4</file>
     <file alias="assets/Kötü-İnsanları-Tanıma-Senesi.mp3">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/Kötü-İnsanları-Tanıma-Senesi.mp3</file>
     <file alias="assets/bir-sana-yandım-ben.mp4">C:/Users/pcerk/OneDrive/Belgeler/QtProject/SongApp/assets/bir-sana-yandım-ben.mp4</file>

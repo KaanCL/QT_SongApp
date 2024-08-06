@@ -1,0 +1,59 @@
+{
+    "classes": [
+        {
+            "className": "AudioSearchModel",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "isSearching",
+                    "notify": "isSearchingChanged",
+                    "read": "isSearching",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIsSearching"
+                }
+            ],
+            "qualifiedClassName": "AudioSearchModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "isSearchingChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "searchSong",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "parseData",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "audiosearchmodel.h",
+    "outputRevision": 68
+}

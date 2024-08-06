@@ -1,2 +1,369 @@
 [
+    {
+        "classes": [
+            {
+                "className": "PlayerController",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "currentSong",
+                        "notify": "currentSongChanged",
+                        "read": "currentSong",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "AudioInfo*",
+                        "user": false,
+                        "write": "setCurrentSong"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "name": "playing",
+                        "notify": "playingChanged",
+                        "read": "playing",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "PlayerController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "playingChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "currentSongChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "switchToPreviousSong",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "switchToNextSong",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "playPause",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "source",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "name": "changeAudioSource",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "authorName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "audioSource",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "imageSource",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "videoSource",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "name": "addAudio",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "authorName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "audioSource",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "imageSource",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "addAudio",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "removeAudio",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "switchToAudioByIndex",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "PlayerController.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "AudioInfo",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "songIndex",
+                        "notify": "songIndexChanged",
+                        "read": "songIndex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setSongIndex"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "name": "title",
+                        "notify": "titleChanged",
+                        "read": "title",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setTitle"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 2,
+                        "name": "authorName",
+                        "notify": "authorNameChanged",
+                        "read": "authorName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAuthorName"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 3,
+                        "name": "imageSource",
+                        "notify": "imageSourceChanged",
+                        "read": "imageSource",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QUrl",
+                        "user": false,
+                        "write": "setImageSource"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 4,
+                        "name": "videoSource",
+                        "notify": "videoSourceChanged",
+                        "read": "videoSource",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QUrl",
+                        "user": false,
+                        "write": "setVideoSource"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 5,
+                        "name": "audioSource",
+                        "notify": "audioSourceChanged",
+                        "read": "audioSource",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QUrl",
+                        "user": false,
+                        "write": "setAudioSource"
+                    }
+                ],
+                "qualifiedClassName": "AudioInfo",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "songIndexChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "titleChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "authorNameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "imageSourceChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "videoSourceChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "audioSourceChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "audioinfo.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "AudioSearchModel",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "isSearching",
+                        "notify": "isSearchingChanged",
+                        "read": "isSearching",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setIsSearching"
+                    }
+                ],
+                "qualifiedClassName": "AudioSearchModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "isSearchingChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "searchSong",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "parseData",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "audiosearchmodel.h",
+        "outputRevision": 68
+    }
 ]

@@ -31,8 +31,7 @@
                     "scriptable": true,
                     "stored": true,
                     "type": "bool",
-                    "user": false,
-                    "write": "setPlaying"
+                    "user": false
                 }
             ],
             "qualifiedClassName": "PlayerController",

@@ -1,18 +1,14 @@
 import QtQuick
 import QtMultimedia
 
-Item {
+import PlayerController
+import AudioInfo
+
+Rectangle {
     id:root
 
 
-    required property int songIndex
-    property alias title: titleText.text
-    property alias authorName: authorText.text
-    property alias imageSource:albumImage.source
-    property alias videoSource:albumVideo.source
-    property alias videoStatus:albumVideo.visible
-
-    visible: playerController.currentSongIndex == root.songIndex
+    visible: !!PlayerController.currentSong
 
 
     Image{
@@ -25,6 +21,13 @@ Item {
        }
        width: 150
        height: 150
+
+
+       source:!!PlayerController.currentSong ? PlayerController.currentSong.imageSource : ""
+
+       fillMode: Image.PreserveAspectFit
+
+
     }
 
     Video{
@@ -38,9 +41,17 @@ Item {
         height: 150
 
         loops: MediaPlayer.Infinite
-        volume: 0
+        volume: 70
+        source:!!PlayerController.currentSong ? PlayerController.currentSong.videoSource : ""
 
+        onSourceChanged: {
+            if(source !=""){
+               play()
+            }else{
+              stop()
+            }
 
+        }
     }
     Text{
        id:titleText
@@ -54,6 +65,8 @@ Item {
 
        color:"white"
        wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+
+       text:!!PlayerController.currentSong ? PlayerController.currentSong.title : ""
 
        font{
          pixelSize: 20
@@ -75,7 +88,7 @@ Item {
 
        color:"gray"
        wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-
+        text: !!PlayerController.currentSong ? PlayerController.currentSong.authorName : ""
        font{
          pixelSize: 20
          bold:true
@@ -93,12 +106,5 @@ Item {
        }
 
     }
-
-
-
-
-
-
-
 
 }

@@ -32,8 +32,13 @@ qt_add_qml_module(appSongApp
         assets/play.png
         assets/song.png
         assets/stop.png
-        assets/f1.mp4
+        assets/menu-burger.png
+        assets/trash.png
+        assets/plus.png
+        assets/search.png
 
+
+        assets/f1.mp4
         assets/Kötü-İnsanları-Tanıma-Senesi.mp3
         assets/bir-sana-yandım-ben.mp4
         assets/Ben-Hüsrana-Komşuyum.mp3
@@ -42,6 +47,9 @@ qt_add_qml_module(appSongApp
         SOURCES playercontroller.h playercontroller.cpp
         SOURCES audioinfo.h audioinfo.cpp
         QML_FILES PlaylistPanel.qml
+        SOURCES audiosearchmodel.h audiosearchmodel.cpp
+        QML_FILES SearchPanel.qml
+        QML_FILES SearchField.qml
 
 
 

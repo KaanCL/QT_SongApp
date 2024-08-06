@@ -4,6 +4,7 @@
 
 #include "playercontroller.h"
 #include "audioinfo.h"
+#include "audiosearchmodel.h"
 
 int main(int argc, char *argv[])
 {
@@ -14,8 +15,12 @@ int main(int argc, char *argv[])
     app.setWindowIcon(QIcon(":/SongApp/assets/song.png"));
 
     PlayerController *playerController = new PlayerController(&app);
-    qmlRegisterSingletonInstance("PlayerController",1,0,"PlayerController",playerController);
+    AudioSearchModel *audioSearchModel = new AudioSearchModel(&app);
 
+   //audioSearchModel->searchSong("hi");
+
+    qmlRegisterSingletonInstance("PlayerController",1,0,"PlayerController",playerController);
+    qmlRegisterSingletonInstance("AudioSearchModel",1,0,"AudioSearchModel",audioSearchModel);
     qmlRegisterType<AudioInfo>("AudioInfo", 1, 0, "AudioInfo");
 
     QQmlApplicationEngine engine;
